@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Indofact</title>
+      <!-- Bootstrap -->
+      <link href="{% static 'web/css/bootstrap.min.css' %}" rel="stylesheet">
+      <link href="{% static 'web/css/style.css' %}" rel="stylesheet">
+      <link rel="stylesheet" href="{% static 'web/css/animate.min.css' %}">
+      <link href="{% static 'web/css/responsive_bootstrap_carousel.css' %}" rel="stylesheet" media="all">
+   </head>
+   <body>
+
+    {% include 'web/partials/header.html' %}
+    {% block content %}
+
+    {% endblock %}
+    {% include 'web/partials/footer.html' %}
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+   <script src="{% static 'web/js/jquery.min.js' %}"></script> 
+   <script src="{% static 'web/js/bootstrap.min.js' %}"></script> 
+   <script src="{% static 'web/js/jquery.touchSwipe.min.js' %}"></script> 
+   <script src="{% static 'web/js/responsive_bootstrap_carousel.js' %}"></script> 
+   <script src="{% static 'web/js/custom.js' %}"></script>
+   <script src="{% static 'web/js/slick.js' %}"></script>
+   </body>
+</html>
