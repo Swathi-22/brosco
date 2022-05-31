@@ -1820,6 +1820,7 @@ ul.header-info li.address{
 }
  .inner-pages-bnr img {
      width: 100%;
+     height: 550px;
 }
  .inner-pages-bnr .banner-caption{
      position:absolute;
@@ -11106,4 +11107,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    top: 0px;
 }
 	
+}
+
+
+.display-design{
+    display: flex !important;
+    justify-content: center !important;
 }
