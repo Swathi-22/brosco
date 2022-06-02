@@ -1570,7 +1570,7 @@ ul.header-info li.address{
      margin:25px 0px 0px;
 }
  .home3-client-desc h4{
-     color:#f2ae2b;
+     color:#821617;
      font-size:18px;
      margin-bottom:10px;
 }
@@ -1580,6 +1580,7 @@ ul.header-info li.address{
      margin-bottom:15px;
      width:100%;
      float:left;
+     font-weight: 800;
 }
  #var_testimonial .controls{
      bottom:50px;
@@ -11178,3 +11179,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     margin: 0;
 }
 
+a:hover {
+    color: #821617;
+}
