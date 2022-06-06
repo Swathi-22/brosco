@@ -42,7 +42,7 @@
                       </ul> -->
                    </li>
                    <li class="dropdown">
-                      <a href="about.html">About Us</a><i class="fa fa-chevron-down"></i>
+                      <a href="{% url 'web:about' %} " class="{% if is_about %} active {% endif %}">About Us</a><i class="fa fa-chevron-down"></i>
                       <!-- <ul class="dropdown-submenu">
                          <li><a href="faq.html">FAQ</a></li>
                          <li><a href="team.html">Our Team</a></li>
@@ -53,7 +53,7 @@
                       </ul> -->
                    </li>
                    <li class="dropdown">
-                      <a href="services.html">Services</a><i class="fa fa-chevron-down"></i>
+                      <a href="{% url 'web:services' %}" class="{% if is_services %} active {% endif %}">Services</a><i class="fa fa-chevron-down"></i>
                       <!-- <ul class="dropdown-submenu">
                          <li><a href="manufacturing.html">Manufacturing</a></li>
                          <li><a href="cnc-industry.html">CNC Industry</a></li>
@@ -64,7 +64,7 @@
                       </ul> -->
                    </li>
                    <li class="dropdown">
-                      <a href="portfolio-2.html">Gallery</a><i class="fa fa-chevron-down"></i>
+                      <a href="{% url 'web:gallery' %}" class="{% if is_gallery %} active {% endif %}">Gallery</a><i class="fa fa-chevron-down"></i>
                       <!-- <ul class="dropdown-submenu">
                          <li><a href="portfolio-3.html">Project 3</a></li>
                          <li><a href="portfolio-4.html">Project 4</a></li>
@@ -72,7 +72,7 @@
                       </ul> -->
                    </li>
                    <li class="dropdown">
-                      <a href="blog.html">Updates</a><i class="fa fa-chevron-down"></i>
+                      <a href="{% url 'web:update' %}" class="{% if is_update %} active {% endif %}">Updates</a><i class="fa fa-chevron-down"></i>
                       <!-- <ul class="dropdown-submenu">
                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
                          <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>

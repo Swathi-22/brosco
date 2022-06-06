@@ -1,0 +1,100 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+        
+      <!--=========Banner Start============-->
+      <div class="inner-pages-bnr">
+         <img src="{% static 'web/images/blog-banner.jpg' %}" class="img-responsive" alt="blog-banner-image">
+         <div class="banner-caption">
+            <h1>Blog</h1>
+            <ul class="breadcumb">
+               <li><a href="#">Home</a> - </li>
+               <li>Blog Without Sidebar</li>
+            </ul>
+         </div>
+      </div>
+      <!--=========Banner end============-->
+      <!--=========Blog Section Start============-->
+      <section class="pad100-top-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 blog-list-cl">
+                  <div class="blog-img">
+                     <span class="image_hover ">
+                     <a href="blog-detail.html">
+                     <img src="{% static 'web/images/blog-img1.jpg' %}" class="img-responsive zoom_img_effect" alt="blog-image">
+                     </a>
+                     </span>
+                     <div class="blog-timing">
+                        <h5>06</h5>
+                        <span>JUN</span>
+                     </div>
+                  </div>
+                  <div class="blog-head">
+                     <h6><a href="blog-detail.html">Duis vitae tellus suscipit, imperdiet est sed, semper urna.</a></h6>
+                     <ul>
+                        <li class="date_icon">JULY 15, 2020</li>
+                        <li class="author_icon">JOHN Clark</li>
+                        <li class="blog_icon">BLOG</li>
+                     </ul>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis vehicula dui, sit amet sodales velit. Phasellus  mi vel malesuada placerat. Sed ullamcorper ullamcorper lectus ut accumsan. Curabitur tortor velit, faucibus ut urna eget, ullamcorper porta sem. Duis hendrerit nisi vel sem tempus, a sollicitudin est auctor. In arcu ligula. Praesent efficitur auctor dolor, sed tempus purus malesuada non.... <a href="blog-detail.html">Read More</a></p>
+               </div>
+               <div class="col-md-12 blog-list-cl">
+                  <div class="blog-img">
+                     <span class="image_hover ">
+                     <img src="{% static 'web/images/blog-img2.jpg' %}" class="img-responsive zoom_img_effect" alt="blog-image">
+                     </span>
+                     <div class="blog-timing">
+                        <h5>06</h5>
+                        <span>JUN</span>
+                     </div>
+                  </div>
+                  <div class="blog-head">
+                     <h6><a href="blog-detail.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                     </h6>
+                     <ul>
+                        <li class="date_icon">JULY 15, 2020</li>
+                        <li class="author_icon">JOHN SMITH</li>
+                        <li class="blog_icon">BLOG</li>
+                     </ul>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis vehicula dui, sit amet sodales velit. Phasellus  mi vel malesuada placerat. Sed ullamcorper ullamcorper lectus ut accumsan. Curabitur tortor velit, faucibus ut urna eget, ullamcorper porta sem. Duis hendrerit nisi vel sem tempus, a sollicitudin est auctor. In arcu ligula. Praesent efficitur auctor dolor, sed tempus purus malesuada non.... <a href="blog-detail.html">Read More</a></p>
+               </div>
+               <div class="col-md-12 blog-list-cl">
+                  <div class="blog-img">
+                     <span class="image_hover ">
+                     <img src="{% static 'web/images/blog-img3.jpg' %}" class="img-responsive zoom_img_effect" alt="blog-image">
+                     </span>
+                     <div class="blog-timing">
+                        <h5>06</h5>
+                        <span>JUN</span>
+                     </div>
+                  </div>
+                  <div class="blog-head">
+                     <h6><a href="blog-detail.html">Quisque condimentum nisi quis massa condimentum, ut tristique quam imperdiet.</a>
+                     </h6>
+                     <ul>
+                        <li class="date_icon">JULY 15, 2020</li>
+                        <li class="author_icon">Gordon SMITH</li>
+                        <li class="blog_icon">BLOG</li>
+                     </ul>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis vehicula dui, sit amet sodales velit. Phasellus  mi vel malesuada placerat. Sed ullamcorper ullamcorper lectus ut accumsan. Curabitur tortor velit, faucibus ut urna eget, ullamcorper porta sem. Duis hendrerit nisi vel sem tempus, a sollicitudin est auctor. In arcu ligula. Praesent efficitur auctor dolor, sed tempus purus malesuada non.... <a href="blog-detail.html">Read More</a></p>
+               </div>
+               <div class="col-md-12">
+                  <div class=" pagination">
+                     <ul>
+                        <li class="prev-next"><a href="#"> &lt; Previous </a></li>
+                        <li><a href="#" class="active-page">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="prev-next"><a href="#"> Next > </a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--=========Blog Section end============-->
+    {% endblock %}
