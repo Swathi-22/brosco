@@ -7039,7 +7039,7 @@ section.experienceSec{
      #main-navigation-wrapper .navbar-collapse {
          border-color: #232333;
          border-radius: 0px;
-         background: #f2ae2b;
+         background: #797979;
          text-align:center;
     }
      .navbar-nav {
@@ -7058,7 +7058,7 @@ section.experienceSec{
          display: block;
          width: 100%;
          padding: 16px 25px;
-         border-bottom: 1px solid #f3c05f !important;
+         border-bottom: 1px solid #797979!important;
          border-right: 0px;
          position: relative;
          font-size: 15px;
@@ -7072,7 +7072,7 @@ section.experienceSec{
      #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, 
      #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a, 
      #main-navigation-wrapper.navbar-default .navbar-nav > li > a.active {
-         background: #000;
+         background: #821617;
          color: #fff;
     }
      #main-navigation-wrapper .nav > li.dropdown.dropdown-active > a {

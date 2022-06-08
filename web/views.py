@@ -42,3 +42,10 @@ def contact(request):
         'is_contact':True
     }
     return render(request,'web/contact.html',context)
+
+
+def construction(request):
+    context = {
+    
+    }
+    return render(request,'web/under-construction.html',context)
