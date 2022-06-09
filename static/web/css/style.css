@@ -42,7 +42,7 @@ Table of Content:
      margin:0px;
      padding:0px;
      font-weight:700;
-     color:#821617;
+     color:#c31f48;
      text-transform:uppercase;
 }
  * {
@@ -176,7 +176,7 @@ Table of Content:
      height:auto;
 }
  .yellow-background{
-     background:#821617;
+     background:#c31f48;
 }
  .read-more-link{
      font-size:15px;
@@ -189,7 +189,7 @@ Table of Content:
      color:#f2ae2b;
 }
 header {
-    padding: 23px 0px 0px;
+    padding: 12px 0px 0px;
 }
 /*Home6-base style*/
 .home6 h1,.home6 h2,.home6 h3,.home6 h4,.home6 h5,.home6 h6,
@@ -272,7 +272,7 @@ ul.header-info li.address{
  a.header-requestbtn{
      font-size:14px;
      color:#000;
-     background:#f2ae2b;
+     background:#c31f48;
      display:block;
      float:right;
      text-decoration:none;
@@ -472,10 +472,10 @@ ul.header-info li.address{
 }
  #main-navigation-wrapper.navbar-default .navbar-nav > .open > a, #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:focus, #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a, #main-navigation-wrapper.navbar-default .navbar-nav > li > a.active {
      background: none;
-     color: #f2ae2b;
+     color: #c31f48;
 }
  .header1 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:focus, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > li > a.active {
-     color: #f2ae2b;
+     color: #c31f48;
      background:#000;
 }
  #main-navigation-wrapper .navbar-nav .dopdown-nav-toggler {
@@ -662,7 +662,7 @@ ul.header-info li.address{
 }
  #main-navigation-wrapper.navbar2-wrap.navbar3-wrap {
      background: none;
-     margin:13px 0px 0px;
+     margin:-2px 0px 0px;
 }
  .hdr3-right{
      width:25%;
@@ -687,10 +687,10 @@ ul.header-info li.address{
  #main-navigation-wrapper .var2-nav.var3-nav .nav > li > a{
      border-right:0px;
      padding:22px 5px;
-     color:#821617;
+     color:#c31f48;
 }
  #main-navigation-wrapper .var2-nav.var3-nav .nav > li > a:hover, #main-navigation-wrapper .var2-nav.var3-nav .nav > li > a.active{
-     color:#797979;
+     color:#706f6f;
 }
  #main-navigation-wrapper.navbar-default.sticky_header.navbar2-wrap.navbar3-wrap {
      margin:0px;
@@ -810,7 +810,7 @@ ul.header-info li.address{
 }
  .solution-available h5{
      font-size:30px;
-     color:#797979;
+     color:#706f6f;
      font-weight:400;
      font-family: 'Open Sans', sans-serif;
      text-transform:none;
@@ -822,7 +822,7 @@ ul.header-info li.address{
 }
  a.header-requestbtn.contactus-btn{
      background:#fff;
-     color:#821617;
+     color:#c31f48;
      width:200px;
      float:none;
      display:inline-block;
@@ -843,7 +843,7 @@ ul.header-info li.address{
 }
  .ftr-section h6{
      font-size:18px;
-     color:#821617;
+     color:#c31f48;
      text-transform:none;
      font-weight:600;
      margin-bottom:25px;
@@ -879,7 +879,7 @@ ul.header-info li.address{
      top: 3px;
      left: 0px;
      font-size: 20px !important;
-     color: #821617;
+     color: #c31f48;
 }
  ul.footer-info li.ftr-loc{
      font-size:15px;
@@ -939,7 +939,7 @@ ul.header-info li.address{
      text-decoration:none;
 }
  ul.footer-link li a:hover{
-     color:#821617 !important;
+     color:#c31f48 !important;
 }
  .header-socials.footer-socials {
      margin:0px 0px 30px;
@@ -957,8 +957,8 @@ ul.header-info li.address{
      text-align:center;
 }
  .header-socials.footer-socials i:hover {
-     color: #821617;
-     border:2px solid #797979;
+     color: #c31f48;
+     border:2px solid #706f6f;
 }
  .ftr-logo{
      width:auto;
@@ -978,7 +978,7 @@ ul.header-info li.address{
 /*03 - Banner */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
  .carousel-caption h1{
-     font-size:65px;
+     font-size:57px;
      color:#fff;
      font-weight:300;
      font-family: 'Open Sans', sans-serif;
@@ -1382,17 +1382,17 @@ ul.header-info li.address{
      border:1px solid #ccc;
      float:left;
      background:#fff;
-     color:#000;
+     color:#706f6f;
      padding:15px;
      margin:30px 0px 0px;
      width:185px;
      text-align:center;
 }
  a.header-requestbtn.more-infobtn:before{
-     background:#f2ae2b;
+     background:#c31f48;
 }
  a.header-requestbtn.more-infobtn:hover{
-     border:1px solid #f2ae2b;
+     border:1px solid #c31f48;
 }
  ul.whychoose-list{
      width:100%;
@@ -1489,7 +1489,7 @@ ul.header-info li.address{
  .boxes-column ul li:after{
      width:1px;
      height:150px;
-     background:#797979;
+     background:#706f6f;
      position:absolute;
      right:0px;
      top:18.9%;
@@ -1514,10 +1514,10 @@ ul.header-info li.address{
      font-weight:700;
      font-size:18px;
      margin-bottom:10px;
-     color:#821617;
+     color:#c31f48;
 }
  .boxes-column ul li p{
-     color:#797979;
+     color:#706f6f;
      font-size:17px;
 }
  .static-section.home3-static ul{
@@ -1570,7 +1570,7 @@ ul.header-info li.address{
      margin:25px 0px 0px;
 }
  .home3-client-desc h4{
-     color:#821617;
+     color:#c31f48;
      font-size:18px;
      margin-bottom:10px;
 }
@@ -1855,7 +1855,7 @@ ul.header-info li.address{
 }
  ul.breadcumb li a:hover{
      text-decoration:none;
-     color:#821617;
+     color:#c31f48;
 }
 /*======inner pages banner end=======*/
 /*=======about-page========*/
@@ -1973,15 +1973,15 @@ ul.header-info li.address{
      padding:91px 0px 100px;
 }
  .static-section.home3-static{
-     padding:100px 0px;
+     padding:55px 0px;
 }
  .static-section h2{
      font-weight:800;
      font-family: 'Montserrat', sans-serif;
-     color:#797979;
+     color:#706f6f;
 }
  .static-section p{
-     color:#797979;
+     color:#706f6f;
 }
  .static-section ul{
      margin:50px 0px 0px ;
@@ -1994,7 +1994,7 @@ ul.header-info li.address{
      float:left;
      width:25%;
      text-align:center;
-     border-right:1px solid #797979;
+     border-right:1px solid #706f6f;
 }
  .static-section ul li:last-child{
      border:0px;
@@ -2806,9 +2806,9 @@ ul.category-list li i.fa {
 }
  .form-submit-btn{
      width:auto;
-     background:#797979;
+     background:#706f6f;
      font-size:17px;
-     color:#821617;
+     color:#c31f48;
      text-transform:uppercase;
      text-align:center;
      padding:13px 30px;
@@ -2816,8 +2816,8 @@ ul.category-list li i.fa {
      font-weight:700;
 }
  .form-submit-btn:hover{
-     background:#821617;
-     color:#797979;
+     background:#c31f48;
+     color:#706f6f;
 }
 
  .comingsoon-page{
@@ -4070,8 +4070,8 @@ ul.category-list li i.fa {
     line-height: 43px;
     font-family: 'Montserrat', sans-serif;
     margin: 20px 0px 20px;
-    background: #f2ae2b;
-    color: #0e0e0e;
+    background: #c31f48;
+    color: #706f6f;
     font-weight: 600;
     letter-spacing: 0.50px;
 }
@@ -7039,7 +7039,7 @@ section.experienceSec{
      #main-navigation-wrapper .navbar-collapse {
          border-color: #232333;
          border-radius: 0px;
-         background: #797979;
+         background: #706f6f;
          text-align:center;
     }
      .navbar-nav {
@@ -7058,7 +7058,7 @@ section.experienceSec{
          display: block;
          width: 100%;
          padding: 16px 25px;
-         border-bottom: 1px solid #797979!important;
+         border-bottom: 1px solid #706f6f!important;
          border-right: 0px;
          position: relative;
          font-size: 15px;
@@ -7072,7 +7072,7 @@ section.experienceSec{
      #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, 
      #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a, 
      #main-navigation-wrapper.navbar-default .navbar-nav > li > a.active {
-         background: #821617;
+         background: #c31f48;
          color: #fff;
     }
      #main-navigation-wrapper .nav > li.dropdown.dropdown-active > a {
@@ -9744,7 +9744,7 @@ section.experienceSec{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #333;
+	background:#706f6f;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 0 50%;
@@ -11180,7 +11180,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 a:hover {
-    color: #821617;
+    color: #c31f48;
 }
 .footer-a{
     color: #c8c8c8;
