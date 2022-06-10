@@ -1553,7 +1553,7 @@ ul.header-info li.address{
      margin:8px 0px;
 }
  a.view-project-link:hover{
-     color:#f2ae2b;
+     color:#c31f48;
 }
  .home3_testimonial{
      background:#f2f2f2;
@@ -1978,10 +1978,10 @@ ul.header-info li.address{
  .static-section h2{
      font-weight:800;
      font-family: 'Montserrat', sans-serif;
-     color:#706f6f;
+     color:#fff;
 }
  .static-section p{
-     color:#706f6f;
+     color:#fff;
 }
  .static-section ul{
      margin:50px 0px 0px ;
@@ -4109,15 +4109,15 @@ ul.category-list li i.fa {
 }
 
 .home3-banner .slide-1{
-	background-image: url(../images/home3-images/home3-slide1.jpg);
+	background-image: url(../images/power.jpg);
 	background-position: center right;
 }
 .home3-banner .slide-2{
-	background-image: url(../images/home3-images/home3-slide2.jpg);
+	background-image: url(../images/industry.jpg);
 	background-position: center right;
 }
 .home3-banner .slide-3{
-	background-image: url(../images/home3-images/home3-slide3.jpg);
+	background-image: url(../images/fast.jpg);
 	background-position: center right;
 }
 
