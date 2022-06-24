@@ -980,7 +980,7 @@ ul.header-info li.address{
  .carousel-caption h1{
      font-size:57px;
      color:#fff;
-     font-weight:300;
+     font-weight:600;
      font-family: 'Open Sans', sans-serif;
      margin-bottom:25px;
      text-transform:none;
@@ -991,6 +991,7 @@ ul.header-info li.address{
  .carousel-caption p{
      font-size:20px;
      color:#fff;
+     font-weight: 400;
      line-height:35px;
      margin-bottom:25px;
 }
@@ -4109,15 +4110,15 @@ ul.category-list li i.fa {
 }
 
 .home3-banner .slide-1{
-	background-image: url(../images/fast1.jpg);
+	background-image: url(../images/broscooo.jpg);
 	background-position: center right;
 }
 .home3-banner .slide-2{
-	background-image: url(../images/fast3.jpg);
+	background-image: url(../images/broscc.jpg);
 	background-position: center right;
 }
 .home3-banner .slide-3{
-	background-image: url(../images/fast11.jpg);
+	background-image: url(../images/broscooo03.jpg);
 	background-position: center right;
 }
 
