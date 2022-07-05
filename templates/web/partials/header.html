@@ -2,10 +2,10 @@
 
 <!--=========header start============-->
 <header class="header3">
-    <div class="container">
+    <div class="container brosco-background">
        <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 display-block ">
-             <a href="#" class="logo"><img src="{% static 'web/images/logo web.svg' %}" style="width: 60%;" class="img-responsive" alt="logo"></a>
+             <a href="#" class="logo"><img src="{% static 'web/images/logo web.svg' %}" style="width: 60%;margin: 9px 15px;" class="img-responsive" alt="logo"></a>
           </div>
           <div class="col-lg-3 col-md-9 col-sm-12 col-xs-12 hdr3-right">
              <div class="header-socials"> 
@@ -22,13 +22,15 @@
     </div>
     <nav id="main-navigation-wrapper" class="navbar navbar-default navbar2-wrap navbar3-wrap">
        <div class="container">
-          <div class="navbar-header">
+          <div class="navbar-header mob-bg">
              <div class="logo-menu"><img src="{% static 'web/images/logo web.svg' %}"  alt=""></div>
              <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
           </div>
           <div class="var2-nav var3-nav">
              <div id="main-navigation" class="collapse navbar-collapse ">
+               <!-- <img src="{% static 'web/images/logo web.svg' %}" style="width: 20%;"  alt=""> -->
                 <ul class="nav navbar-nav display-design">
+                  
                    <li class="dropdown ">
                       <a href="{% url 'web:index' %}" class="{% if is_index %} active {% endif %}">Home</a><i class="fa fa-chevron-down"></i>
                       <!-- <ul class="dropdown-submenu">

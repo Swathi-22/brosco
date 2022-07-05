@@ -189,7 +189,7 @@ Table of Content:
      color:#f2ae2b;
 }
 header {
-    padding: 12px 0px 0px;
+    padding: 0px 0px 0px;
 }
 /*Home6-base style*/
 .home6 h1,.home6 h2,.home6 h3,.home6 h4,.home6 h5,.home6 h6,
@@ -4119,7 +4119,7 @@ ul.category-list li i.fa {
 }
 .home3-banner .slide-3{
 	background-image: url(../images/brosco04.jpg);
-	background-position: center right;
+	/* background-position: center right; */
 }
 .home3-banner .slide-4{
 	background-image: url(../images/brosco06.jpg);
@@ -4133,6 +4133,11 @@ ul.category-list li i.fa {
 	background-image: url(../images/brosco09.jpg);
 	background-position: center right;
 }
+.home3-banner .slide-7{
+	background-image: url(../images/broscoweb2.jpg);
+	background-position: center right;
+}
+
 
 .home4 .slide-1{
 	background-image: url(../images/home4-images/home4-slide1.jpg);
@@ -7005,6 +7010,9 @@ section.experienceSec{
          width:100%;
          float:none;
          margin:0px!important;
+    }
+    .mob-bg{
+        background-color: #000;
     }
      .navbar-default .navbar-toggle {
          border: medium none;
@@ -10514,6 +10522,11 @@ a.view-all.slide_learn_btn.view_project_btn:hover{
 	width:20%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 2400px) {
+    #minimal-bootstrap-carousel.home3-banner .carousel-inner .item {
+        min-height: 1081px;
+        margin-top: 80px;
+
+    }
 	#minimal-bootstrap-carousel.home1 .carousel-caption {
     width: 47%;
 	}
@@ -10571,7 +10584,11 @@ a.view-all.slide_learn_btn.view_project_btn:hover{
     .link-pad{
         padding: 0px 50px;
     }
-    
+    #minimal-bootstrap-carousel.home3-banner .carousel-inner .item {
+        min-height: 566px;
+        margin-top: 77px;
+
+    }
 	#minimal-bootstrap-carousel.home1 .carousel-caption .thm-container .box .content.home1-slides {
     margin-right: -44px;
     margin-top: 67px;
@@ -10686,6 +10703,7 @@ a.view-all.slide_learn_btn.view_project_btn:hover{
 
 #minimal-bootstrap-carousel.home3-banner .carousel-inner .item {
     min-height:360px!important;
+    margin-top: 83px;
 }
 #our_project .left  {
 	margin-left:0px;
@@ -11203,4 +11221,7 @@ a:hover {
 }
 .head-margin{
     margin-top: 10px !important;
+}
+.brosco-background{
+    background-color: #000;
 }
